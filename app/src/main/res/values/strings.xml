@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HW4Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nowPlayingLabel">Now Playing</string>
+    <string name="song">Talk Me Down</string>
+    <string name="author">Blue Neighbourhood</string>
+</resources>

@@ -1,0 +1,56 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <LinearLayout
+        android:id="@+id/songs_ll"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/duration_tv"
+        android:layout_marginStart="50dp"
+        >
+
+        <TextView
+            android:id="@+id/song_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            tools:text="Blank Space"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/author_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            tools:text="Taylor Swift"
+            android:textSize="13sp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/duration_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        tools:text="3:22"
+        android:textSize="13sp"
+        app:layout_constraintStart_toEndOf="@+id/songs_ll"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="30dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
